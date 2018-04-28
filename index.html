@@ -1,0 +1,775 @@
+<!doctype html>
+<!--[if IE 7 ]>    <html lang="en-gb" class="isie ie7 oldie no-js"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="en-gb" class="isie ie8 oldie no-js"> <![endif]-->
+<!--[if IE 9 ]>    <html lang="en-gb" class="isie ie9 no-js"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html lang="en-gb" class="no-js"> <!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <!--[if lt IE 9]> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <![endif]-->	
+	<title>Home</title>	
+	<meta name="description" content="">
+	<meta name="author" content="">    
+    <!--[if lt IE 9]>
+        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->    
+	<!--[if lte IE 8]>
+		<script type="text/javascript" src="http://explorercanvas.googlecode.com/svn/trunk/excanvas.js"></script>
+	<![endif]-->    
+<link rel="stylesheet" href="css/bootstrap.min.css" />     
+
+<link rel="stylesheet" type="text/css" href="css/isotope.css" media="screen" />	
+<link rel="stylesheet" href="js/fancybox/jquery.fancybox.css" type="text/css" media="screen" />
+<link rel="stylesheet" type="text/css" href="css/da-slider.css" />
+<link rel="stylesheet" href="css/styles.css"/>
+<!-- Font Awesome -->
+<link href="font/css/font-awesome.min.css" rel="stylesheet">
+<link href="fontawesome\web-fonts-with-css\css\fontawesome-all.css" rel="stylesheet">
+</head>
+
+<body>
+<header class="header">
+	<div class="container">
+		<nav class="navbar navbar-inverse" role="navigation">
+        	<div class="navbar-header">
+	            <button type="button" id="nav-toggle" class="navbar-toggle" data-toggle="collapse" data-target="#main-nav">
+		            <span class="sr-only">Toggle navigation</span>
+		            <span class="icon-bar"></span>
+		            <span class="icon-bar"></span>
+		            <span class="icon-bar"></span>
+	            </button>
+	            <a href="#" class="navbar-brand scroll-top logo"><img src="images/logo1.png" alt="skytouch" style="margin-top:-1rem; width:40px;height:40px"/></a>
+        	</div>
+        	<!--/.navbar-header-->
+	        <div id="main-nav" class="collapse navbar-collapse">
+	            <ul class="nav navbar-nav" id="mainNav">
+					<li class="active"><a href="#home" class="scroll-link">Home</a></li>
+					<li><a href="#attractions" class="scroll-link">Attractions</a></li>
+					<li><a href="#portfolio" class="scroll-link">Food</a></li>
+					<li><a href="#services" class="scroll-link">Things to Do</a></li>
+					<li><a href="#reviews" class="scroll-link">Reviews</a></li>
+					<li><a href="#technologies" class="scroll-link">Technologies</a></li>
+					<li><a href="#team" class="scroll-link">Team</a></li>
+					<li><a href="#contactUs" class="scroll-link">Contact Us</a></li> 
+	            </ul>
+	        </div>
+	        <!--/.navbar-collapse-->
+	    </nav>
+	    <!--/.navbar-->
+	</div>
+	<!--/.container-->
+</header>
+<!--/.header-->
+<div id="#top"></div>
+<section id="home" class="page-section">
+    <div class="banner-container">      
+            <div class="container banner-content">
+               <div id="da-slider" class="da-slider">
+				<div class="da-slide">
+					<h2>Food in Shanghai</h2>
+					<p>Browse Shanghai by Food</p>
+					<a href="#" class="da-link button-outline">Read more</a>
+					<div class="da-img"></div>
+				</div>
+				<div class="da-slide">
+					<h2>Fine Dining in Shanghai</h2>
+					<p>Restaurants in Shanghai provide fancy dining experience.</p>
+					<a href="#" class="da-link button-outline">Read more</a>
+					<div class="da-img"></div>
+				</div>
+				<div class="da-slide">
+					<h2>Local Cuisine</h2>
+					<p>Lots of local Crusine you should try.</p>
+					<a href="#" class="da-link button-outline">Read more</a>
+					<div class="da-img"></div>
+				</div>
+				<div class="da-slide">
+					<h2>Moderately Priced Food</h2>
+					<p>Tasty but moderately priced food.</p>
+					<a href="#" class="da-link button-outline">Read more</a>
+					<div class="da-img"></div>
+				</div>
+				<nav class="da-arrows">
+					<span class="da-arrows-prev"></span>
+					<span class="da-arrows-next"></span>
+				</nav>
+			</div>
+	    </div>
+    </div>	
+    <!--/.container-->
+</section> 
+
+<section id="attractions" class="page-section section appear clearfix">
+	<div class="container">
+
+		<div class="heading text-center">
+			<!-- Heading -->
+			<h2>Attractions</h2>
+			<p>Browse Shanghai by food.</p>
+		</div>
+
+		<div class="row">
+			<nav id="sort" class="col-md-12">
+				<ul>
+					<li style="font-weight:bold">Sort by:</li>
+					<li>
+						<a id="sortByRanking" href="#attractions" class="current btn-theme btn-small">Ranking</a>
+					</li>
+					<li>
+						<a id="sortByName" href="#attractions" class="btn-theme btn-small">Name</a>
+					</li>
+				</ul>
+			</nav>
+			<div class="button-group sort-by-button-group">
+				<button data-sort-by="original-order">original-order</button>
+				<button data-sort-by="oname">name</button>
+				<button data-sort-by="ranking">ranking</button>
+			</div>
+
+			<div class="button-group sort-by-button-group">
+					<button data-sort-by="original-order">original order</button>
+					<button data-sort-by="name">name</button>
+					<button data-sort-by="symbol">symbol</button>
+					<button data-sort-by="number">number</button>
+					<button data-sort-by="weight">weight</button>
+					<button data-sort-by="category">category</button>
+				  </div>
+
+			<div class="grid">
+					<div class="element-item transition metal" data-category="transition">
+					  <p class="number">79</p>
+					  <h3 class="symbol">Au</h3>
+					  <h2 class="name">Gold</h2>
+					  <p class="weight">196.966569</p>
+					</div>
+					<div class="element-item metalloid" data-category="metalloid">
+					  <p class="number">51</p>
+					  <h3 class="symbol">Sb</h3>
+					  <h2 class="name">Antimony</h2>
+					  <p class="weight">121.76</p>
+					</div>
+				  </div>
+
+			<!-- <div class="col-md-12">
+					<div class="row">
+					  <div class="portfolio-items isotopeWrapper clearfix" id="3">
+					  
+						<article class="col-md-4 col-sm-4 isotopeItem indian">
+							<div class="portfolio-item">
+								<img src="images/portfolio/image1.jpg" alt="" />
+								 <div class="portfolio-desc align-center">
+									<div class="folio-info">
+										<a href="images/portfolio/image1.jpg" class="fancybox"><h5>Indian Food</h5>
+										<i class="fa fa-expand fa-2x"></i></a>
+									 </div>										   
+								 </div>
+							</div>
+						</article> -->
+
+			<div class="col-md-12">
+				<div class="row">
+					<div class="attractions-items isotopeSort clearfix">
+						<div class="row list isotopeSortItem">
+							    <p class="number">79</p>
+								<h3 class="symbol">Au</h3>
+								<h2 class="name">Gold</h2>
+								<p class="weight">196.966569</p>
+							<p class="name">C</p>
+							<div class="col-md-4">
+								<img class="img-responsive" src="images\view1.png">
+							</div>
+							<div class="col-md-8 attraction">
+								<div class="row">
+									<div class="col-md-8">
+										<h4 class="name">The Bund (Wai Tan)</h4>
+									</div>
+									<div class="col-md-2" align="right">
+										<a href="#attractions">View More</a>
+									</div>
+								</div>
+								<p>16,020 reviews</p>
+								<p>#<span class="ranking">1</span> of 1,345 things to do in Shanghai</p>
+								<p>Historic Walking Areas</p>
+							</div>
+						</div>
+						<div class="row list isotopeSortItem">
+								<p class="name">B</p>
+								<p class="number">51</p>
+								<h3 class="symbol">Sb</h3>
+								<h2 class="name">Antimony</h2>
+								<p class="weight">121.76</p>
+								<div class="col-md-4">
+									<img class="img-responsive" src="images\view2.png">
+								</div>
+								<div class="col-md-8 attraction">
+									<div class="row">
+										<div class="col-md-8">
+											<h4 class="name">A 3 Bund (Wai Tan)</h4>
+										</div>
+										<div class="col-md-2" align="right">
+											<a href="#attractions">View More</a>
+										</div>
+									</div>
+									<p>16,020 reviews</p>
+									<p>#<span class="ranking">3</span> of 1,345 things to do in Shanghai</p>
+									<p>Historic Walking Areas</p>
+								</div>
+							</div>
+							<div class="row list isotopeSortItem">
+									<p class="name">A</p>
+									<div class="col-md-4">
+										<img class="img-responsive" src="images\view3.png">
+									</div>
+									<div class="col-md-8 attraction">
+										<div class="row">
+											<div class="col-md-8">
+												<h4 class="name">B 2 Bund (Wai Tan)</h4>
+											</div>
+											<div class="col-md-2" align="right">
+												<a href="#attractions">View More</a>
+											</div>
+										</div>
+										<p>16,020 reviews</p>
+										<p>#<span class="ranking">2</span> of 1,345 things to do in Shanghai</p>
+										<p>Historic Walking Areas</p>
+									</div>
+								</div>
+					</div>
+
+						
+			<!-- <div class="col-md-12">
+				<div class="row list">
+					<div class="col-md-4">
+						<img class="img-responsive" src="images\view1.png">
+					</div>
+					<div class="col-md-8 attraction">
+						<div class="row">
+							<div class="col-md-8">
+								<h4>The Bund (Wai Tan)</h4>
+							</div>
+							<div class="col-md-2" align="right">
+								<a href="#attractions">View More</a>
+							</div>
+						</div>
+						<p>16,020 reviews</p>
+						<p>#1 of 1,345 things to do in Shanghai</p>
+						<p>Historic Walking Areas</p>
+					</div>
+				</div>
+				<div class="row list">
+						<div class="col-md-4">
+							<img class="img-responsive" src="images\view1.png">
+						</div>
+						<div class="col-md-8 attraction">
+							<div class="row">
+								<div class="col-md-8">
+									<h4>The Bund (Wai Tan)</h4>
+								</div>
+								<div class="col-md-2" align="right">
+									<a href="#attractions">View More</a>
+								</div>
+							</div>
+							<p>16,020 reviews</p>
+							<p>#1 of 1,345 things to do in Shanghai</p>
+							<p>Historic Walking Areas</p>
+						</div>
+					</div>
+			</div> -->
+		</div>
+	</div>
+</section>
+
+<section id="portfolio" class="page-section section appear clearfix">	
+		<div class="container">
+			
+		<div class="heading text-center">
+							<!-- Heading -->
+							<h2>Food in Shanghai</h2>								
+							<p>Browse Shanghai by food.</p>
+						</div>
+				
+					<div class="row">
+					  <nav id="filter" class="col-md-12 text-center">
+						<ul>
+						  <li><a href="#" class="current btn-theme btn-small" data-filter="*">All</a></li>
+						  <li><a href="#"  class="btn-theme btn-small" data-filter=".indian" >Indian</a></li>
+						  <li><a href="#"  class="btn-theme btn-small" data-filter=".chinese">Chinese</a></li>
+						  <li ><a href="#" class="btn-theme btn-small" data-filter=".american">American</a></li>
+						</ul>
+					  </nav>
+					  <div class="col-md-12">
+						<div class="row">
+						  <div class="portfolio-items isotopeWrapper clearfix" id="3">
+						  
+							<article class="col-md-4 col-sm-4 isotopeItem indian">
+								<div class="portfolio-item">
+									<img src="images/portfolio/image1.jpg" alt="" />
+									 <div class="portfolio-desc align-center">
+										<div class="folio-info">
+											<a href="images/portfolio/image1.jpg" class="fancybox"><h5>Indian Food</h5>
+											<i class="fa fa-expand fa-2x"></i></a>
+										 </div>										   
+									 </div>
+								</div>
+							</article>
+
+							<article class="col-md-4 col-sm-4 isotopeItem indian">
+								<div class="portfolio-item">
+									<img src="images/portfolio/image2.jpg" alt="" />
+									 <div class="portfolio-desc align-center">
+										<div class="folio-info">
+											<a href="images/portfolio/img2.jpg" class="fancybox"><h5>Indian Food</h5>
+											<i class="fa fa-expand fa-2x"></i></a>
+										 </div>										   
+									 </div>
+								</div>
+							</article>
+							
+
+							<article class="col-md-4 col-sm-4 isotopeItem indian">
+								<div class="portfolio-item">
+									<img src="images/portfolio/image3.jpg" alt="" />
+									 <div class="portfolio-desc align-center">
+										<div class="folio-info">
+											<a href="images/portfolio/image3.jpg" class="fancybox"><h5>Indian Food</h5>
+											<i class="fa fa-expand fa-2x"></i></a>
+										 </div>										   
+									 </div>
+								</div>
+							</article>
+
+							<article class="col-md-4 col-sm-4 isotopeItem chinese">
+								<div class="portfolio-item">
+									<img src="images/portfolio/image4.jpg" alt="" />
+									 <div class="portfolio-desc align-center">
+										<div class="folio-info">
+											<a href="images/portfolio/image4.jpg" class="fancybox"><h5>Chinese Food</h5>
+											<i class="fa fa-expand fa-2x"></i></a>
+										 </div>										   
+									 </div>
+								</div>
+							</article>
+
+							<article class="col-md-4 col-sm-4 isotopeItem chinese">
+								<div class="portfolio-item">
+									<img src="images/portfolio/image5.jpg" alt="" />
+									 <div class="portfolio-desc align-center">
+										<div class="folio-info">
+											<a href="images/portfolio/image5.jpg" class="fancybox"><h5>Chinese Food</h5>
+											<i class="fa fa-expand fa-2x"></i></a>
+										 </div>										   
+									 </div>
+								</div>
+							</article>
+
+							<article class="col-md-4 col-sm-4 isotopeItem chinese">
+								<div class="portfolio-item">
+									<img src="images/portfolio/image6.jpg" alt="" />
+									 <div class="portfolio-desc align-center">
+										<div class="folio-info">
+											<a href="images/portfolio/image6.jpg" class="fancybox"><h5>Chinese Food</h5>
+											<i class="fa fa-expand fa-2x"></i></a>
+										 </div>										   
+									 </div>
+								</div>
+							</article>
+
+							<article class="col-md-4 col-sm-4 isotopeItem american">
+								<div class="portfolio-item">
+									<img src="images/portfolio/image7.jpg" alt="" />
+									 <div class="portfolio-desc align-center">
+										<div class="folio-info">
+											<a href="images/portfolio/image7.jpg" class="fancybox"><h5>American Food</h5>
+											<i class="fa fa-expand fa-2x"></i></a>
+										 </div>										   
+									 </div>
+								</div>
+							</article>
+
+							<article class="col-md-4 col-sm-4 isotopeItem american">
+								<div class="portfolio-item">
+									<img src="images/portfolio/image8.jpg" alt="" />
+									 <div class="portfolio-desc align-center">
+										<div class="folio-info">
+											<a href="images/portfolio/image8.jpg" class="fancybox"><h5>American Food</h5>
+											<i class="fa fa-expand fa-2x"></i></a>
+										 </div>										   
+									 </div>
+								</div>
+							</article>
+
+							<article class="col-md-4 col-sm-4 isotopeItem american">
+								<div class="portfolio-item">
+									<img src="images/portfolio/image9.jpg" alt="" />
+									 <div class="portfolio-desc align-center">
+										<div class="folio-info">
+											<a href="images/portfolio/image9.jpg" class="fancybox"><h5>American Food</h5>
+											<i class="fa fa-expand fa-2x"></i></a>
+										 </div>										   
+									 </div>
+								</div>
+							</article>
+							</div>
+									
+						</div>
+								 
+
+						</div>
+					</div>
+			
+		</div>	
+</section> 
+
+<section id="technologies" class="page-section pDark pdingBtm30">
+	<div class="container">
+		<div class="heading text-center">
+			<!-- Heading -->
+			<h2>Technologies I am using</h2>
+		</div>
+
+		<div class="row">
+			<div class="col-md-3 col-sm-6">
+				<div class="tray text-center">
+					<h3>
+						<i class="fas fa-shopping-bag color"></i> &nbsp;HTML5/CSS3</h3>
+					<!-- Paragraph -->
+					<p>Duis aute irure dolor in repreh enderit in voluptate velit esse cillum dolore pariatur.</p>
+				</div>
+			</div>
+			<div class="col-md-3 col-sm-6">
+				<div class="tray text-center">
+					<!-- Heading -->
+					<h3>
+						<i class="fas fa-user color"></i> &nbsp;Bootstrap</h3>
+					<!-- Paragraph -->
+					<p>Duis aute irure dolor in repreh enderit in voluptate velit esse cillum dolore pariatur.</p>
+				</div>
+			</div>
+			<div class="col-md-3 col-sm-6">
+				<div class="tray text-center">
+					<!-- Heading -->
+					<h3>
+						<i class="fa fa-home color"></i> &nbsp;Single Page</h3>
+					<!-- Paragraph -->
+					<p>Duis aute irure dolor in repreh enderit in voluptate velit esse cillum dolore pariatur.</p>
+				</div>
+			</div>
+			<div class="col-md-3 col-sm-6">
+				<div class="tray text-center">
+					<!-- Heading -->
+					<h3>
+						<i class="fa fa-coffee color"></i> &nbsp;Responsive</h3>
+					<!-- Paragraph -->
+					<p>Duis aute irure dolor in repreh enderit in voluptate velit esse cillum dolore pariatur.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--/.container-->
+</section>
+
+<section id="services" class="page-section darkBg">
+	<div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                <div class="heading text-center">
+								<!-- Heading --> 	
+                                <h2>More about Shanghai</h2> 							
+								<!-- <p>Find more about Shanghai</p> -->
+							</div>                                            
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-sm-6">
+                    <div class="media">
+                        <div class="pull-left">
+                            <i class="fas fa-shopping-bag color fa-5x"></i>
+                        </div>
+                        <div class="media-body">
+                            <h3 class="media-heading" style="margin-top:2rem"><a href="#services">Shopping</a></h3>
+                            <!-- <pLight>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore oluptate velit es pariatur</pLight> -->
+                        </div>
+                    </div>
+                </div><!--/.col-md-4-->
+                <div class="col-md-4 col-sm-6">
+                    <div class="media">
+                        <div class="pull-left">
+                            <i class="fas fa-camera-retro color fa-5x"></i>
+                        </div>
+                        <div class="media-body">
+                            <h3 class="media-heading"><a href="#services">Tours</a></h3>
+                        </div>
+                    </div>
+                </div><!--/.col-md-4-->
+                <div class="col-md-4 col-sm-6">
+                    <div class="media">
+                        <div class="pull-left">
+								<i class="fas fa-film color fa-5x"></i>
+                        </div>
+                        <div class="media-body">
+                            <h3 class="media-heading"><a href="#services">Movies</a></h3>
+                        </div>
+                    </div>
+                </div><!--/.col-md-4-->
+            </div><!--/.row-->
+
+            <div class="row">
+                <div class="col-md-4 col-sm-6">
+                    <div class="media">
+                        <div class="pull-left">
+                            <i class="fas fa-building color fa-5x"></i>
+                        </div>
+                        <div class="media-body">
+                            <h3 class="media-heading"><a href="#services">Hotel</a></h3>
+                        </div>
+                    </div>
+                </div><!--/.col-md-4-->
+                <div class="col-md-4 col-sm-6">
+                    <div class="media">
+                        <div class="pull-left">
+                            <i class="fas fa-music color fa-5x"></i>
+                        </div>
+                        <div class="media-body">
+                            <h3 class="media-heading"><a href="#services">Concerts</a></h3>
+                        </div>
+                    </div>
+                </div><!--/.col-md-4-->
+                <div class="col-md-4 col-sm-6">
+                    <div class="media">
+                        <div class="pull-left">
+                            <i class="fas fa-volleyball-ball color fa-5x"></i>
+                        </div>
+                        <div class="media-body">
+                            <h3 class="media-heading"><a href="#services">Sports</a></h3>
+                        </div>
+                    </div>
+                </div><!--/.col-md-4-->
+            </div><!--/.row-->
+        </div><!--/.container-->
+</section>
+ 
+
+<section id="team" class="page-section team-member">
+	<div class="container">
+							<div class="heading text-center">
+								<!-- Heading -->
+								<h2>Meet The Team</h2> 
+								<p>At lorem Ipsum available, but the majority have suffered alteration in some form by injected humour.</p>
+							</div>
+							<!-- Team Member's Details -->
+							<div id="meet-the-team" class="row">
+            <div class="col-md-3 col-xs-6">
+                <div class="center text-center">
+                    <p><img class="img-responsive img-thumbnail img-circle" src="images/photo-1.jpg" alt=""></p>
+                    <h5>Jonnti Renlly<small class="designation muted">Senior Vice President</small></h5>
+                    <p>lorem Ipsum available, but the majority have suffered alteration.</p>
+                    <a class="btn btn-social btn-facebook" href="#"><i class="icon-facebook"></i></a> <a class="btn btn-social btn-google-plus" href="#"><i class="icon-google-plus"></i></a> <a class="btn btn-social btn-twitter" href="#"><i class="icon-twitter"></i></a> <a class="btn btn-social btn-linkedin" href="#"><i class="icon-linkedin"></i></a>
+                </div>
+            </div>
+
+            <div class="col-md-3 col-xs-6">
+                <div class="center text-center">
+                    <p><img class="img-responsive img-thumbnail img-circle" src="images/photo-1.jpg" alt=""></p>
+                    <h5>Jonnti Renlly<small class="designation muted">Senior Vice President</small></h5>
+                    <p>lorem Ipsum available, but the majority have suffered alteration.</p>
+                    <a class="btn btn-social btn-facebook" href="#"><i class="icon-facebook"></i></a> <a class="btn btn-social btn-google-plus" href="#"><i class="icon-google-plus"></i></a> <a class="btn btn-social btn-twitter" href="#"><i class="icon-twitter"></i></a> <a class="btn btn-social btn-linkedin" href="#"><i class="icon-linkedin"></i></a>
+                </div>
+            </div>        
+            <div class="col-md-3 col-xs-6">
+                <div class="center text-center">
+                    <p><img class="img-responsive img-thumbnail img-circle" src="images/photo-1.jpg" alt=""></p>
+                    <h5>Jonnti Renlly<small class="designation muted">Senior Vice President</small></h5>
+                    <p>lorem Ipsum available, but the majority have suffered alteration.</p>
+                    <a class="btn btn-social btn-facebook" href="#"><i class="icon-facebook"></i></a> <a class="btn btn-social btn-google-plus" href="#"><i class="icon-google-plus"></i></a> <a class="btn btn-social btn-twitter" href="#"><i class="icon-twitter"></i></a> <a class="btn btn-social btn-linkedin" href="#"><i class="icon-linkedin"></i></a>
+                </div>
+            </div>        
+            <div class="col-md-3 col-xs-6">
+                <div class="center text-center">
+                    <p><img class="img-responsive img-thumbnail img-circle" src="images/photo-1.jpg" alt=""></p>
+                    <h5>Jonnti Renlly<small class="designation muted">Senior Vice President</small></h5>
+                    <p>lorem Ipsum available, but the majority have suffered alteration.</p>
+                    <a class="btn btn-social btn-facebook" href="#"><i class="icon-facebook"></i></a> <a class="btn btn-social btn-google-plus" href="#"><i class="icon-google-plus"></i></a> <a class="btn btn-social btn-twitter" href="#"><i class="icon-twitter"></i></a> <a class="btn btn-social btn-linkedin" href="#"><i class="icon-linkedin"></i></a>
+                </div>
+            </div>
+		</div>
+		</div>
+		</section>
+		
+		<section id="reviews" class="page-section team-member">
+		<div class="container">
+        	<div class="row reviews">
+                <div class="col-lg-12">
+                    <div class="heading text-center">
+                        <h2>Travellers say</h2>
+                    </div>
+                    <div class="row review-row">
+                        <div class="col-md-6">
+                            <!-- <blockquote> -->
+								<div class="row">
+									<div class="col-md-3">
+											<img class="img-circle"src="images/profile21.png" alt=""> 	
+									</div>
+								
+									<div class="col-md-9">
+											<div class="row">
+													<small class="col-md-5">Reviewed 4 days ago. </small>
+													<small class="col-md-5"><i class="fas fa-mobile-alt"></i>  via mobile</small>
+											</div>
+											 
+											<p class="reviews">  We visited the place for dinner after we arrived in the Hotel. We were tired from the trip and did not want to find a good place to eat. The menu was excellent, well cooked and fresh. A bit expensive but worth every penny. The ...<a href="#reviews">More</a> </p>
+											<small>--- Werner W. <cite title="Source Title">North Carolina</cite></small>
+									</div>
+							</div>	
+<!-- 
+                            </blockquote> -->
+                        </div>
+                        <div class="col-md-6">
+
+										<div class="col-md-3">
+												<img class="img-circle"src="images/profile31.png" alt=""> 	
+										</div>
+									
+										<div class="col-md-9">
+												<div class="row">
+														<small>Reviewed 4 January 2018. </small>
+												</div>
+												<p class="reviews"> We had afternoon tea in the Salon de Ville for three during their strawberry spring promotion. Setting was gorgeous as I remember from past visits and we were seated next to the windows overlooking the Bund. We ...<a href="#reviews">More</a></p>
+												<small>--- Rachel S. <cite title="Source Title">New York City</cite></small>
+										</div>
+	
+							</div>
+					</div>
+
+					<div class="row">
+							<div class="col-md-6">
+								<!-- <blockquote> -->
+									<div class="row">
+										<div class="col-md-3">
+												<img class="img-circle"src="images/profile41.png" alt=""> 	
+										</div>
+									
+										<div class="col-md-9">
+												<div class="row">
+														<small class="col-md-5">Reviewed 8 December 2017.</small>
+														<small class="col-md-5"><i class="fas fa-mobile-alt"></i>  via mobile</small>
+												</div>
+												<p class="reviews">  We enter Shanghai SWFC at ground level at night. The lines were short. We were directed through a series of hallways that led to the elevators. The handling of the visitors and directions were very good. There were no long waits to reach the observation...<a href="#reviews">More</a> </p>
+												<div class="row" style="margin-bottom:1rem">
+													<div class="col-md-4">
+														<img class="image-responsive review-img" src="images/view1.png">
+													</div>
+													<div class="col-md-4">
+															<img class="image-responsive review-img" src="images/view2.png">
+														</div>
+														<div class="col-md-4">
+																<img class="image-responsive review-img" src="images/view3.png">
+															</div>
+												</div>
+												<small>--- George. <cite title="Source Title">Los Angeles</cite></small>
+										</div>
+								</div>	
+								</div>
+								</div>
+
+                </div>
+            </div>
+	<!--/.container-->
+        </div>
+</section> 
+<footer class="page-section darkBgBottom" id="contactUs">
+	<div class="container">
+    
+		<div class="row">
+                <div class="heading text-center">
+								<!-- Heading -->
+								<h2>Contact Us</h2> 
+								<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered.</p>
+							</div>                            
+            </div>
+
+					<div class="row mrgn30">
+                        				<div class="col-sm-3">
+									<h4>Address:</h4>
+									<address>
+										WebThemez Company<br>
+										134 Stilla. Tae., 414515<br>
+										Leorislon, SA 02434-34534 USA <br>
+									</address>
+									<h4>Contact Info:</h4> 
+                                     <ul>
+              <li><i class="fa fa-phone"></i>1-123-345-6789</li>
+              <li><a href="#"><i class="fa fa-envelope-o"></i> contact@website.com</a></li>
+              <li><i class="fa fa-flag"></i>123 Smith Drive, Baltimore, MD 21212</li>
+            </ul>
+								</div>
+                                
+
+									<div class="col-sm-4"> 
+										 	<!--NOTE: Update your email Id in "contact_me.php" file in order to receive emails from your contact form-->
+		<form name="sentMessage" id="contactForm"  novalidate>
+		<h3>Contact Form</h3>
+		<div class="control-group">
+		<div class="controls">
+		<input type="text" class="form-control" 
+		placeholder="Full Name" id="name" required
+		data-validation-required-message="Please enter your name" />
+		<p class="help-block"></p>
+		</div>
+		</div> 	
+		<div class="control-group">
+		<div class="controls">
+		<input type="email" class="form-control" placeholder="Email" 
+		id="email" required
+		data-validation-required-message="Please enter your email" />
+		</div>
+		</div> 	
+
+		<div class="control-group">
+		<div class="controls">
+		<textarea rows="10" cols="100" class="form-control" 
+		placeholder="Message" id="message" required
+		data-validation-required-message="Please enter your message" minlength="5" 
+		data-validation-minlength-message="Min 5 characters" 
+		maxlength="999" style="resize:none"></textarea>
+		</div>
+		</div> 		 
+		<div id="success"> </div> <!-- For success/fail messages -->
+		<button type="submit" class="btn btn-primary pull-right">Send</button><br />
+		</form>									
+									</div>   
+							</div>
+        </div>
+	<!--/.container-->	
+</footer>
+<!--/.page-section-->
+<section class="copyright">
+     <div class="container">
+      <div class="row">
+        <div class="col-sm-12">          
+           <!-- <ul class="socialIcons">
+              <li><a href="#" class="fbIcon" target="_blank"><i class="fa fa-facebook-square fa-lg""></i></a></li>
+              <li><a href="#" class="twitterIcon" target="_blank"><i class="fa fa-twitter-square fa-lg""></i></a></li>
+              <li><a href="#" class="googleIcon" target="_blank"><i class="fa fa-google-plus-square fa-lg""></i></a></li>
+              <li><a href="#" class="pinterest" target="_blank"><i class="fa fa-pinterest-square fa-lg""></i></a></li>
+            </ul>   <div class="pull-right webThemez">Copyright &copy; 2016.Company name All rights reserved.More Templates <a href="http://www.cssmoban.com/" target="_blank" title="模板之家">模板之家</a> - Collect from <a href="http://www.cssmoban.com/" title="网页模板" target="_blank">网页模板</a></div> -->
+        </div>
+      </div>  <!-- / .row -->
+    </div>
+</section>
+    <a href="#top" class="topHome"><i class="fa fa-chevron-up fa-2x"></i>Top home</a>
+
+<!--[if lte IE 8]><script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script><![endif]-->
+<script src="js/modernizr-latest.js"></script>
+<script src="js/jquery-1.8.2.min.js" type="text/javascript"></script>    
+<script src="js/bootstrap.min.js" type="text/javascript"></script>	 
+<script src="js/jquery.isotope.min.js" type="text/javascript"></script>
+<script src="js/fancybox/jquery.fancybox.pack.js" type="text/javascript"></script> 
+<script src="js/jquery.nav.js" type="text/javascript"></script>
+<script src="js/jquery.cslider.js" type="text/javascript"></script>
+ <script src="contact/jqBootstrapValidation.js"></script>
+ <script src="contact/contact_me.js"></script>
+<script src="js/custom.js" type="text/javascript"></script>
+</body>
+</html>
